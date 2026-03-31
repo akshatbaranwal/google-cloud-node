@@ -17,7 +17,7 @@
 import * as fs from 'fs';
 import * as grpc from '@grpc/grpc-js';
 import {WorkerProxy} from './worker-proxy';
-import { SpannerOptions } from '../../src';
+import {SpannerOptions} from '../../src';
 
 /**
  * Provides utility methods for configuring the Cloud Spanner client for tests.
@@ -59,7 +59,8 @@ export class CloudUtil {
       // - default_authority is used for the HTTP/2 :authority header.
       (grpcOptions as grpc.ChannelOptions)['grpc.ssl_target_name_override'] =
         this.TEST_HOST_IN_CERT;
-      (grpcOptions as grpc.ChannelOptions)['grpc.default_authority'] = this.TEST_HOST_IN_CERT;
+      (grpcOptions as grpc.ChannelOptions)['grpc.default_authority'] =
+        this.TEST_HOST_IN_CERT;
     }
 
     (options as any).grpcOptions = grpcOptions;

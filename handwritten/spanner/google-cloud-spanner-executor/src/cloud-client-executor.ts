@@ -49,9 +49,12 @@ export class ExecutionFlowContext implements ExecutionFlowContextInterface {
    * Sends a response back to the client.
    */
   public onNext(response: SpannerAsyncActionResponse): void {
-
     // Prevent writing if client cancelled the call, or the underlying Node stream is un-writable/destroyed
-    if (this.call.cancelled || this.call.destroyed || this.call.writable === false) {
+    if (
+      this.call.cancelled ||
+      this.call.destroyed ||
+      this.call.writable === false
+    ) {
       console.warn('Attempted to write to a closed or cancelled stream.');
       return;
     }
