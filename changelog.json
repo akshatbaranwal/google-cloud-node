@@ -5,6 +5,24 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "113d05c3bf068487bd81a7d4dbb4510f89142618",
+          "message": "Implement robust path validation and structured skip reporting",
+          "issues": [
+            "7546"
+          ],
+          "scope": "storage"
+        }
+      ],
+      "version": "7.20.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/storage",
+      "id": "c0008b3a-9762-444b-817d-e30bbcac69c2",
+      "createTime": "2026-04-01T07:26:21.888Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "91666d001bdc0d020742784bebc2c4e4bba81de4",
           "message": "Add initial files for google.cloud.datacatalog.lineage.configmanagement.v1",
           "issues": [
@@ -69375,5 +69393,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-03-25T19:27:43.346Z"
+  "updateTime": "2026-04-01T07:26:21.888Z"
 }
