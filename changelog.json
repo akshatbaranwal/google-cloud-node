@@ -5,6 +5,61 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "09cd24fcb742fa2f084c4c358a0156aac7951c26",
+          "message": "[firestore] Add support for DML",
+          "issues": []
+        },
+        {
+          "type": "feat",
+          "sha": "77ce3195b2b5f569b7fba33ea5bcc05391428318",
+          "message": "[firestore] Add support for DML",
+          "issues": []
+        },
+        {
+          "type": "fix",
+          "sha": "e8755b5f490e6eca885804792a18119a7a822a0a",
+          "message": "Update pipeline tests for backend changes",
+          "issues": [],
+          "scope": "firestore"
+        },
+        {
+          "type": "fix",
+          "sha": "e5dd91e03595452fc1dece58ca6b0c553f72398f",
+          "message": "Update pipeline tests for backend changes",
+          "issues": [],
+          "scope": "firestore"
+        },
+        {
+          "type": "feat",
+          "sha": "f17a79153046f578bda9bbd0d2cdb9ed9371d500",
+          "message": "Add the parent expression",
+          "issues": [],
+          "scope": "firestore"
+        },
+        {
+          "type": "fix",
+          "sha": "7d044d1f9d30ab0edef38d1fc07311799a3e9f91",
+          "message": "Refactor the parameters for timestamp expressions and fix bug for timeGranularity lowercase",
+          "issues": []
+        },
+        {
+          "type": "feat",
+          "sha": "deeb265d21751393a71224a3793adb38582f39b8",
+          "message": "Add timestamp expressions",
+          "issues": [],
+          "scope": "firestore"
+        }
+      ],
+      "version": "8.4.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/firestore",
+      "id": "fbfe74e9-1ae3-4f07-8bd2-f74ae8dfd61b",
+      "createTime": "2026-04-01T01:02:23.400Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "91666d001bdc0d020742784bebc2c4e4bba81de4",
           "message": "Add initial files for google.cloud.datacatalog.lineage.configmanagement.v1",
           "issues": [
@@ -69375,5 +69430,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-03-25T19:27:43.346Z"
+  "updateTime": "2026-04-01T01:02:23.400Z"
 }
