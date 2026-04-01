@@ -5,6 +5,133 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "da6ef3b2599582c2132b83b5311caadc3e1e2a34",
+          "message": "[geocode] make the Place ID format consistent",
+          "issues": [
+            "7903"
+          ]
+        },
+        {
+          "type": "feat",
+          "sha": "48591e57572ca14f9b4e7dd63d5b9df7405efcb6",
+          "message": "Add initial files for google.maps.geocode.v4",
+          "issues": [
+            "7841"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/geocode",
+      "id": "59902808-78e6-4c3f-8aad-3a61197b860d",
+      "createTime": "2026-04-01T18:48:57.357Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "14bb52806fb3783933b1acdfcb3e5007328cf6f7",
+          "message": "Add initial files for google.cloud.auditmanager.v1",
+          "issues": [
+            "7843"
+          ]
+        }
+      ],
+      "version": "0.1.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/auditmanager",
+      "id": "d5133e78-c295-4f24-a45a-53b870405958",
+      "createTime": "2026-04-01T18:48:57.329Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "a8fac0a6374071436ff37cfffe9dbceb896d496c",
+          "message": "[securesourcemanager] Add CustomHostConfig to configure custom hostnames for private instances",
+          "issues": [
+            "7901"
+          ]
+        }
+      ],
+      "version": "0.9.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/securesourcemanager",
+      "id": "d3273243-16b1-4458-9228-f3c79fd8870f",
+      "createTime": "2026-04-01T18:48:57.299Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "efa3e04e34f4eb4d2f4ee757d2ef8c6b2e380a40",
+          "message": "[networksecurity] Publish proto definitions for AuthzPolicy, TlsInspectionPolicy, GatewaySecurityPolicy, GatewaySecurityPolicyRule, and UrlList",
+          "issues": [
+            "7862"
+          ]
+        }
+      ],
+      "version": "3.4.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/network-security",
+      "id": "6807d1c0-79e1-4fbb-a944-851590286334",
+      "createTime": "2026-04-01T18:48:57.267Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "5d3b1387d42b741e2d0cda09c6993e2e37da959c",
+          "message": "[netapp] Add ONTAP passthrough APIs",
+          "issues": [
+            "7861"
+          ]
+        }
+      ],
+      "version": "0.17.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/netapp",
+      "id": "3ce90936-504d-4831-912b-7ce76132055b",
+      "createTime": "2026-04-01T18:48:57.234Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "24d9b56ef1840f2738920f4577d4f77fb0a5b8fd",
+          "message": "[cx] updated v3 dialogflow client libraries with `dtmf_pattern` and `trace_blocks`",
+          "issues": [
+            "7846"
+          ]
+        }
+      ],
+      "version": "5.8.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/dialogflow-cx",
+      "id": "ee4a326c-c003-4f8e-91f9-898328cf0348",
+      "createTime": "2026-04-01T18:48:57.198Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "75c76e1253982abc8e228c793dee684004e621f2",
+          "message": "[dialogflow] updated v2beta1 dialogflow client libraries",
+          "issues": [
+            "7853"
+          ]
+        }
+      ],
+      "version": "7.6.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/dialogflow",
+      "id": "fecf0040-064c-441a-9a35-f5fa331ef9e6",
+      "createTime": "2026-04-01T18:48:57.158Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "91666d001bdc0d020742784bebc2c4e4bba81de4",
           "message": "Add initial files for google.cloud.datacatalog.lineage.configmanagement.v1",
           "issues": [
@@ -69375,5 +69502,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-03-25T19:27:43.346Z"
+  "updateTime": "2026-04-01T18:48:57.357Z"
 }
