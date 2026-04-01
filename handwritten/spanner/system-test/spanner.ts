@@ -7277,7 +7277,10 @@ describe('Spanner', () => {
         records,
       ) => {
         const options = {
-          exactStaleness: Date.now() - records[0].localTimestamp,
+          exactStaleness: Math.max(
+            0,
+            Date.now() - records[0].localTimestamp - 1000,
+          ),
         };
 
         const [transaction] = await database.getSnapshot(options);
