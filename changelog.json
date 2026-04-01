@@ -5,6 +5,24 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "e500d4077065529fbdee4be565434a34b6643c09",
+          "message": "Allow the user to ask for skipping parsing rows when querying",
+          "issues": [
+            "7848"
+          ],
+          "scope": "bigquery"
+        }
+      ],
+      "version": "8.3.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/bigquery",
+      "id": "90db705c-e05a-469e-9415-f8103a45a3b7",
+      "createTime": "2026-04-01T01:02:23.198Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "91666d001bdc0d020742784bebc2c4e4bba81de4",
           "message": "Add initial files for google.cloud.datacatalog.lineage.configmanagement.v1",
           "issues": [
@@ -69375,5 +69393,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-03-25T19:27:43.346Z"
+  "updateTime": "2026-04-01T01:02:23.198Z"
 }
