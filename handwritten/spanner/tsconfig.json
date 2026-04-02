@@ -4,6 +4,7 @@
     "rootDir": ".",
     "outDir": "build",
     "noImplicitAny": false,
+    "skipLibCheck": true,
     "resolveJsonModule": true,
     "lib": [
       "es2018",
